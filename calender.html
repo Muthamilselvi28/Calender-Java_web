@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+        margin:0;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height:100vh;
+        font-family: cursive;
+        background-color: rgb(142, 247, 247);
+        }
+.calender-container{
+    background-color: white;
+    width:300px;
+    height:300px;
+    text-align: center;
+    border-radius: 14px;
+    box-shadow: 4px 5px 10px black;
+}
+.month-name{
+    background-color: orangered;
+    font-family:cursive;
+    color:white;
+    margin:0;
+    padding:10px;
+    border-radius: 13px;
+    font-weight: 200px;
+    font-size: 30px;
+
+
+}
+.day-name{
+    font-size: 20px;
+    color:grey;
+}
+.day-number{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+}
+.year{
+    font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: grey;
+    font-weight: 100px;
+    font-size:bold;
+}
+
+</style>
+</head>
+<body>
+    <div class="calender-container">
+        <p class="month-name" id="month-name">April</p>
+        <p class="day-name" id="day-name">friday</p>
+        <p class="day-number" id="day-number">20</p>
+        <p class="year" id="year">2024</p>
+    </div>
+    <script src="calender.js"></script>
+</body>
+</html>
